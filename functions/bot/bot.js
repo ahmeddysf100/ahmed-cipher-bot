@@ -1,22 +1,23 @@
 const morse = require('morse');
-const { ahmed } = require('./ahmed/ahmed.js')
+const { ahmed } = require('../../ahmed/ahmed.js')
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '6627631576:AAGYRZxApMhUw-X7l7U6la2wKaVq-CfGUCc';
 
 const bot = new TelegramBot(token, { polling: true });
 
-// server run allwayes
-const express = require('express');
-const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+// // server run allwayes
+// const express = require('express');
+// const app = express();
+// app.get('/', (req, res) => {
+//   res.send('Hello World!');
+// });
 
-const port = 3000;
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
+// const port = 3000;
+// app.listen(port, () => {
+//   console.log(`Server running at http://localhost:${port}`);
+// });
+
 
 
 
