@@ -2,7 +2,7 @@ const morse = require('morse');
 const { ahmed } = require('./ahmed/ahmed')
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '6627631576:AAGYRZxApMhUw-X7l7U6la2wKaVq-CfGUCc';
+const token =process.env.TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
 
