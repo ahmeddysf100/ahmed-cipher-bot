@@ -1,7 +1,6 @@
 const morse = require('morse');
 const { ahmed } = require('./ahmed/ahmed.js')
 const TelegramBot = require('node-telegram-bot-api');
-const { C } = require('morse/map.js');
 
 const token = '6627631576:AAGYRZxApMhUw-X7l7U6la2wKaVq-CfGUCc';
 
