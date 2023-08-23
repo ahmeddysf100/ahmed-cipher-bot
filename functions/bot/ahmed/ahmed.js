@@ -1,7 +1,7 @@
 const { tap } = require('./tap')
 const { ahmed_otp } = require('./vernam')
 const { Cipher } = require('./caeser/indexx')
-const morse = require('../node_modules/morse')
+const morse = require('../../../node_modules/morse')
 
 
 
